@@ -4,8 +4,8 @@
     "version": "1.0",
     "manifest_version": 2,
     "browser_action" : {
-	"default_popup" : "hello.html",
-	"default_icon" : "hello_extensions.png"
+	"default_popup" : "index.html",
+	"default_icon" : "ytext.png"
     },
     "background" :{
         "scripts" : ["index.js"]
@@ -16,7 +16,7 @@
                 "default" : "Ctrl+Shift+F",
                 "mac" : "MacCtrl+Shift+F"
             },
-            "description" : "Opens hello.html"
+            "description" : "Opens index.html"
         }
     }
  }
